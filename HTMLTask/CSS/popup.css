@@ -1,0 +1,366 @@
+.popupimg {
+  margin: 25px 200px 25px 58px;
+}
+
+.modeltittle {
+  margin: 19px 16px 9px 21px;
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.modeltittle1{
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.close {
+  margin: 17px 37px 12px 10px;
+}
+.frstcontent {
+  margin: 5px;
+  /* background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1; */
+}
+.secondcontenttxt {
+  text-align: left;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #4e6e7e;
+  opacity: 1;
+}
+.dot1 {
+  height: 15px;
+  width: 15px;
+  background-color: #2d3735;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 15px;
+  width: 15px;
+  background-color: #219ebc;
+  border-radius: 50%;
+  display: inline-block;
+}
+.secondcontentlbl {
+  text-align: left;
+  font: normal normal 600 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.secondcontent {
+  margin: 0px 10px 0px 10px;  
+}
+
+.wrapper {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.header,
+.footer {
+  background: silver;
+}
+.content {
+  height: 50%;
+  flex: 1;
+  overflow: hidden;
+  background: pink;
+}
+
+p {
+  overflow: hidden;
+}
+.thirdcontent {
+  margin: 25px;
+  /* background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 1; */
+  
+}
+.popupimg2 {
+  margin: 10px 10px 10px 10px;
+}
+.modal-width2 {
+  max-width: 900px; 
+  max-height: 600px;
+}
+.modal-width{
+  max-width: 900px; 
+}
+
+.buysrcnimg{
+  margin:25px;
+}
+.buysrcnlbl{
+  font-weight: 900;
+  text-align: left;
+  font: normal normal bold 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.buyscrnotlbl{
+  text-align: left;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #B3C1C8;
+  opacity: 1;
+}
+.buyprice{
+  text-align: right;
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.buytittle{
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+  padding: 25px;
+}
+.addrsbtn{
+  text-align: left;
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #B3C1C8;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.addrsbtn:hover{
+  color: #B3C1C8;
+}
+.dtlssavebtn{
+  text-align: right;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #219EBC;
+  text-transform: uppercase;
+  opacity: 1;
+  margin:  7px 22px 0px 0px;
+}
+.txt{
+  border: 1px solid #E9ECEF;   
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  flex-wrap: wrap;
+  opacity: 1;
+  font:  normal normal 600 14px/18px Montserrat;
+  color:#B3C1C8;
+  letter-spacing: 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+.txt:focus{
+  outline: none;
+  border: 2px solid;
+  border-color: #219EBC;
+}
+.txt:hover{
+  background-color: #219EBC1A;
+}
+.dropdown{
+  border: 1px solid #E9ECEF;   
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  flex-wrap: wrap;
+  opacity: 1;
+  font:  normal normal 600 14px/18px Montserrat;
+  color: #4E6E7E;
+  letter-spacing: 0px;
+  padding: 10px 10px 10px 10px;
+}
+.dropdown:focus{
+  border: 1px solid #E9ECEF;  
+}
+.dropdown:active{
+  border: 1px solid #E9ECEF; 
+}
+
+.frmlbl{
+  text-align: left;
+font: normal normal normal 12px/15px Montserrat;
+letter-spacing: 0px;
+color: #4E6E7E;
+opacity: 1;
+}
+.boxmargin1{
+  margin: 25px 0px 25px 0px;
+}
+.boxmargin2{
+  margin:0px 0px 25px 0px;
+}
+.alllbl{
+  margin: 10px 0px 10px 0px;
+  font: normal normal 600 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.invoicelbl{
+  text-align: left;
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #B3C1C8;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.invoicemargin{
+  margin:10px 10px 10px 15px;
+}
+.otlbl{
+  text-align: left;
+  font: normal normal  12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #B3C1C8;
+  opacity: 1;
+}
+.ttlbl{
+  text-align: left;
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.prcilbl{
+  text-align: right;
+  font: normal normal medium 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+
+.box2margin{
+  margin: 15px;
+}
+.seccontentdiv{
+  height: 100%;
+  /* position: fixed; */
+}
+.box-all{
+  margin:20px 20px 20px 20px;
+}
+.box
+{
+  margin:5px 5px 5px 5px;
+  /* margin:20px 20px 20px 30px; */
+  border: solid 1px;
+  border-color: #E9ECEF;
+  border-radius: 5px;
+}
+.box1{
+  /* margin:20px 20px 30px 30px; */
+  margin:5px 5px 5px 5px;
+  border: solid 1px;
+  border-color: #E9ECEF;
+  border-radius: 5px;
+}
+.box2{
+  margin:5px 5px 5px 5px;
+  border: solid 1px;
+  border-color: #E9ECEF;
+  border-radius: 5px;
+}
+.prclbl{
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #023047;
+  opacity: 1;
+}
+.stickymodal{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.topcontent{
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#wrapper {
+  margin-top: 20px;
+  overflow: hidden;
+  height:440px;
+  overflow-y:scroll;
+  position:fixed;
+  z-index: 1;
+  margin-right: 17px;
+  box-sizing: content-box;
+}
+
+#wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+#wrapper {
+-ms-overflow-style: none;  
+scrollbar-width: none;  
+}
+#wrapperone {
+  margin-top: 250px;
+  overflow: hidden;
+  height:340px;
+  overflow-y:scroll;
+  position:fixed;
+  z-index: 1;
+  margin-right: 17px;
+  box-sizing: content-box;
+}
+
+#wrapperone::-webkit-scrollbar {
+  display: none;
+}
+
+#wrapperone {
+-ms-overflow-style: none;  
+scrollbar-width: none;  
+}
+
+
+.Middlecontent{
+  height: 600px;
+  background-color: white;
+}
+.popupheight{
+  height: 470px;
+  background-color: white;
+}
+.popupheight1{
+  height: 330px;
+  background-color: white;
+}
+.hr{
+  margin: 0px 0px 0px -16px;
+}
+.spacelbl{
+  margin: 20px 0px 20px 0px;
+}
+
+
+

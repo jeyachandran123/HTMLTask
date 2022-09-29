@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/home.css" />
+    <link rel="stylesheet" href="./CSS/popup.css" />
+  </head>
+  <body>
+    <form>
+      <div class="">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+          <img class="gleimg" src="./Assets/Mask Group 1.png" />
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse collapse-a-tag"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav li justify-content-around">
+              <li class="nav-item">
+                <a class="nav-link listbtn" href="#" tabindex="1">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link listbtn" tabindex="1" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link listbtn" tabindex="1" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link listbtn" tabindex="1" href="#">About us</a>
+              </li>
+            </ul>
+            <div class="radiusbtn">
+              <button id="radiusbtn" class="button">
+                <div class="row justify-content-around">
+                  <p id="btntxt">Create Account</p>
+                  <div class="col-6">
+                    <img
+                      src="./Assets/imgbin-computer-icons-portable-network-graphics-avatar-icon-design-avatar-DsZ54Du30hTrKfxBG5PbwvzgE.png"
+                      alt="Avatar"
+                      height="33"
+                      width="33"
+                      id="Avatar"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <p id="btntxt1">&#709;</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="margin">
+              <label class="fillbl">Filters</label>
+              <div class="custom-control align custom-checkbox">
+                <input
+                  class="custom-control-input"
+                  type="checkbox"
+                  value=""
+                  onclick="Lblclrchnge1()"
+                  id="defaultCheck1"
+                />
+                <label
+                  class="custom-control-label chcklbl"
+                  id="Label1"
+                  for="defaultCheck1"
+                >
+                  Phones
+                </label>
+              </div>
+              <div class="custom-control align custom-checkbox">
+                <input
+                  class="custom-control-input"
+                  type="checkbox"
+                  onclick="Lblclrchnge2()"
+                  value=""
+                  id="defaultCheck2"
+                />
+                <label
+                  class="custom-control-label chcklbl"
+                  id="Label2"
+                  for="defaultCheck2"
+                >
+                  Headphones
+                </label>
+              </div>
+              <div class="custom-control align custom-checkbox">
+                <input
+                  class="custom-control-input"
+                  type="checkbox"
+                  onclick="Lblclrchnge3()"
+                  value=""
+                  id="defaultCheck3"
+                />
+                <label
+                  class="custom-control-label chcklbl"
+                  id="Label3"
+                  for="defaultCheck3"
+                >
+                  Accessories
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <div class="bottomdiv row">
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card1" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Mask Group 12.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 5</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 499 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Smart, powerful, helpful.</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card2" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Group 21.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 6</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 699 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Smart</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModalCenter"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card3" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Group 21.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 6 Pro</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 699 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Powerful, Smart</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card4" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Group 21.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 6 Pro</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 699 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Powerful, Smart</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card5" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Group 21.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 6</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 699 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Smart</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card6" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Mask Group 12.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 5</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 499 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Smart, powerful, helpful.</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card7" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Mask Group 12.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 5</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 499 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Smart, powerful, helpful.</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card8" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Group 21.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 6</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 699 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Smart</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                <div id="card9" style="height: 250px">
+                  <div class="conimg">
+                    <img
+                      src="./Assets/Group 21.png"
+                      height="150"
+                      width="130"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="bottomcard">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-8">
+                      <label class="toplbl">Pixel 6 Pro</label>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                      <label class="toplbl2">$ 499 </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <label class="lblclass">Powerful, Smart</label>
+                      <a
+                        class="dtlsclss"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                        tabindex="1"
+                        href="#"
+                        >View Details</a
+                      >
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="bottomhoverdiv ml-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info form-control buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="col-sm-4 col-md-4">
+                          <img
+                            class="lblpic"
+                            src="./Assets/5-star-rating-icon-26.jpg"
+                            height="10"
+                            width="60"
+                          />
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                          <label class="lblclass">(1.2K)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 justify-content-center">
+              <center>
+                <label class="productlbl"
+                  ><img src="./Assets/icons8-multiple-stars.svg" />&nbsp;Product
+                  end here &nbsp;<img
+                    src="./Assets/icons8-multiple-stars (1).svg"
+                /></label>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerwidth">
+        <hr />
+        <footer>
+          <div class="row">
+            <div class="col-md-6">
+              <label class="copywrite">© 2007-2022 Google Inc</label>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2 align-item-end">
+              <label class="footlbl">Terms & Conditions</label>
+            </div>
+            <div class="col-md-1">
+              <label class="footlbl">Privacy</label>
+            </div>
+            <div class="col-md-1">
+              <label class="footlbl">Career</label>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <br />
+      <!-- View Details Model Popup(Portrait )-->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="row frstcontent">
+              <div class="col-sm-8">
+                <h5 class="modeltittle" id="exampleModalLongTitle">Pixel 5</h5>
+              </div>
+              <div class="col-sm-4">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-sm-3">
+                  <img
+                    src="./Assets/Group 3741.svg"
+                    height="35"
+                    width="35"
+                    class="mx-auto d-block"
+                  />
+                </div>
+                <div class="col-sm-6">
+                  <div class="popupimg">
+                    <img
+                      src="./Assets/Mask Group 12.png"
+                      height="140"
+                      width="120"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <img
+                    src="./Assets/Group 3740.svg"
+                    height="35"
+                    width="35"
+                    class="mx-auto d-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="wrapperone" class="Middlecontent">
+              <div class="seccontentdiv">
+                <div class="row justify-content-around">
+                  <div class="col-sm-4">
+                    <label class="secondcontentlbl">Color</label>
+                  </div>
+                  <div class="col-sm-6 secondcontenttxt">
+                    <span class="dot1"></span>
+                    <label>Black</label>
+                    <span class="dot2"></span>
+                    <label>White</label>
+                    <span class="dot3"></span>
+                    <label>Blue</label>
+                  </div>
+                </div>
+
+                <div class="row justify-content-around">
+                  <div class="col-sm-4">
+                    <label class="secondcontentlbl">Display</label>
+                  </div>
+                  <div class="col-sm-6 secondcontenttxt">
+                    <p>Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz</p>
+                    <br />
+                    <p>20:9 aspect ratio</p>
+                    <br />
+                    <p>FHD+ (1080 x 2400) OLED at 429 ppi</p>
+                    <br />
+                    <p>Corning® Gorilla® Glass 3™ cover glass</p>
+                    <br />
+                    <p>Always-on display with At a Glance and Now Playing</p>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-sm-4">
+                    <label class="secondcontentlbl">Dimension & Weight</label>
+                  </div>
+                  <div class="col-sm-6 secondcontenttxt">
+                    <p>6.0 height x 2.8 width x 0.36 depth (in)</p>
+                    <br />
+                    <p>152.2 height x 71.8 width x 8.9 depth(mm)</p>
+                    <br />
+                    <p>6.3 0z</p>
+                    <br />
+                    <p>178 g</p>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-sm-4">
+                    <label class="secondcontentlbl">Battery & charging</label>
+                  </div>
+                  <div class="col-sm-6 secondcontenttxt">
+                    <p>Over 24-hour battery life3</p>
+                    <br />
+                    <p>Up to 72-hour battery life with Extreme Battery-saver</p>
+                    <br />
+                    <p>Typical 4410 mAh</p>
+                    <br />
+                    <p>Fast Charging</p>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-sm-4 secondcontentlbl">
+                    <label class="secondcontentlbl">Memory</label>
+                  </div>
+
+                  <div class="col-sm-6 secondcontenttxt">
+                    <p>6GB LPDDRS RAM</p>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-sm-4 secondcontentlbl">
+                    <label class="secondcontentlbl">Storage</label>
+                  </div>
+                  <div class="col-sm-6 secondcontenttxt">
+                    <p>128 GB strorage UFS 3.1 storage</p>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-sm-4 secondcontentlbl">
+                    <label class="secondcontentlbl">Processer</label>
+                  </div>
+
+                  <div class="col-sm-6 secondcontenttxt">
+                    <p>Google Tensor Titan M2tm security coprocessor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="popupheight1"></div>
+            <div class="thirdcontent">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                  <div class="row align-items-end">
+                    <div class="col-sm-12">
+                      <label class="toplbl2">$ 499</label>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <img
+                          class="popupimg2"
+                          src="./Assets/5-star-rating-icon-26.jpg"
+                          height="10"
+                          width="60"
+                        />
+                        <label class="lblclass">(1.2K)</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="align-item-end">
+                    <button
+                      class="btn btn-info form-control buybtn"
+                      data-toggle="modal"
+                      data-target="#exampleModalLong"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Buy Mobile Modal Popup-->
+
+      <div
+        class="modal fade"
+        id="exampleModalLong"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-width" role="document">
+          <div class="modal-content">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-7">
+                <h2 class="modal-title buytittle" id="exampleModalLabel">
+                  <strong>Buy Pixel 5</strong>
+                </h2>
+              </div>
+
+              <div class="col-2">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+            <div class="row justify-content-center box-all">
+              <div class="col-sm-8">
+                <div class="row">
+                  <div class="col-sm-12 box">
+                    <div class="">
+                      <div
+                        class="row justify-content-between align-items-center"
+                      >
+                        <div class="col-sm-2">
+                          <img
+                            class="buysrcnimg"
+                            src="./Assets/Group 3762.png"
+                          />
+                        </div>
+                        <div class="col-sm-3">
+                          <label class="buysrcnlbl">Pixel 5</label>
+                          <label class="buyscrnotlbl">SKU12345-12</label>
+                        </div>
+                        <div class="col-sm-3">
+                          <label class="buyscrnotlbl">Black | 128GB</label>
+                        </div>
+                        <div class="col-sm-2">
+                          <label class="buyscrnotlbl">1 Qty</label>
+                        </div>
+                        <div class="col-sm-2">
+                          <label class="buyprice">$499.00</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 box1">
+                    <div class="">
+                      <div class="row boxmargin1 justify-content-between">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                          <a
+                            class="addrsbtn"
+                            style="text-decoration: none"
+                            href="#"
+                            tabindex="1"
+                            >ADD ADDRESS</a
+                          >
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                          <div
+                            class="row justify-content-end align-items-center"
+                          >
+                            <a
+                              class="dtlssavebtn"
+                              style="text-decoration: none"
+                              href="#"
+                              tabindex="1"
+                              >SAVE ADDRESS</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row boxmargin2 justify-content-around">
+                        <div class="col-sm-6">
+                          <label class="form-label frmlbl" for="Txtusername"
+                            >Name</label
+                          >
+                          <input
+                            type="text"
+                            placeholder="Amy jackson"
+                            id="Txtusername"
+                            class="txt"
+                          />
+                        </div>
+                        <div class="col-sm-6">
+                          <label class="form-label frmlbl" for="Txtusernum"
+                            >Contect Number</label
+                          >
+                          <input
+                            type="text"
+                            placeholder="+91"
+                            id="Txtusernum"
+                            class="txt"
+                          />
+                        </div>
+                      </div>
+                      <div class="row boxmargin2 justify-content-around">
+                        <div class="col-sm-12">
+                          <label class="form-label frmlbl" for="Txtuseradd"
+                            >Address</label
+                          >
+                          <input
+                            type="text"
+                            placeholder="Dubai main road, Dubai cross street"
+                            id="Txtuseradd"
+                            class="txt"
+                          />
+                        </div>
+                      </div>
+                      <div class="row boxmargin2 justify-content-around">
+                        <div class="col-sm-6">
+                          <label class="form-label frmlbl" for="city"
+                            >City</label
+                          >
+                          <select id="city" class="dropdown">
+                            <option>Select City</option>
+                            <option>Chennai</option>
+                            <option>Madurai</option>
+                            <option>Kancheepuram</option>
+                            <option>Chennai</option>
+                            <option>Madurai</option>
+                            <option>Kancheepuram</option>
+                          </select>
+                        </div>
+                        <div class="col-sm-6">
+                          <label class="form-label frmlbl" for="Country"
+                            >Country</label
+                          >
+                          <select id="Country" class="dropdown">
+                            <option>Select Country</option>
+                            <option>Kailasha</option>
+                            <option>India</option>
+                            <option>China</option>
+                            <option>Kailasha</option>
+                            <option>India</option>
+                            <option>China</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box2">
+                  <div class="box2margin">
+                    <div class="row">
+                      <label class="invoicelbl invoicemargin"
+                        >INVOICE SUMMARY</label
+                      >
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <label class="otlbl alllbl">Actual amount</label>
+                      </div>
+                      <div class="col-sm-6">
+                        <label class="prcilbl alllbl">$559.00</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <label class="otlbl alllbl">Discount</label>
+                      </div>
+                      <div class="col-sm-6">
+                        <label class="prcilbl alllbl">$60.00</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <label class="otlbl alllbl">Billing amount</label>
+                      </div>
+                      <div class="col-sm-6">
+                        <label class="prcilbl alllbl">$499.00</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <label class="ttlbl alllbl">Total amount</label>
+                      </div>
+                      <div class="col-sm-6">
+                        <label class="prclbl alllbl">$499.00</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <button
+                          class="btn btn-info form-control alllbl"
+                          style="height: 47px"
+                        >
+                          Pay $ 499.00
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View Details Model Popup(Landscape  )-->
+
+      <div
+        class="modal fade"
+        id="exampleModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-width2 stickymodal" role="document">
+          <div class="modal-content">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-6">
+                <h2 class="modal-title buytittle" id="exampleModalLabel">
+                  <strong>Pixel 6</strong>
+                </h2>
+              </div>
+
+              <div class="col-2">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 imgcontent">
+                <div class="row align-items-center">
+                  <div class="col-sm-3">
+                    <img
+                      src="./Assets/Group 3741.svg"
+                      height="35"
+                      width="35"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="">
+                      <img
+                        src="./Assets/Group 3760.png"
+                        height="250"
+                        width="200"
+                        class="mx-auto d-block"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <img
+                      src="./Assets/Group 3740.svg"
+                      height="35"
+                      width="35"
+                      class="mx-auto d-block"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="topcontent">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-sm-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <label class="modeltittle1">Pixel 6</label>
+                        </div>
+                      </div>
+                      <div class="row align-items-end">
+                        <div class="col-sm-12">
+                          <label class="toplbl2">$ 699</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <img
+                              class="popupimg2"
+                              src="./Assets/5-star-rating-icon-26.jpg"
+                              height="10"
+                              width="60"
+                            />
+                            <label class="lblclass">(1.2K)</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="align-item-end">
+                        <button
+                          class="btn btn-info buybtn"
+                          data-toggle="modal"
+                          data-target="#exampleModalLong"
+                        >
+                          Buy Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container hr">
+                  <hr />
+                </div>
+
+                <div id="wrapper" class="Middlecontent">
+                  <div class="row spacelbl">
+                    <div class="col-sm-4">
+                      <label class="secondcontentlbl">Color</label>
+                    </div>
+                    <div class="col-sm-8 secondcontenttxt">
+                      <div class="row justify-content-around">
+                        <div class="col-4">
+                          <span class="dot1"></span>
+                          <label>Black</label>
+                        </div>
+                        <div class="col-4">
+                          <span class="dot2"></span>
+                          <label>White</label>
+                        </div>
+                        <div class="col-4">
+                          <span class="dot3"></span>
+                          <label>Blue</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row spacelbl">
+                    <div class="col-sm-4">
+                      <label class="secondcontentlbl">Display</label>
+                    </div>
+                    <div class="col-sm-8 secondcontenttxt">
+                      <p>Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz</p>
+                      <br />
+                      <p>20:9 aspect ratio</p>
+                      <br />
+                      <p>FHD+ (1080 x 2400) OLED at 429 ppi</p>
+                      <br />
+                      <p>Corning® Gorilla® Glass 3™ cover glass</p>
+                      <br />
+                      <p>Always-on display with At a Glance and Now Playing</p>
+                    </div>
+                  </div>
+                  <div class="row spacelbl">
+                    <div class="col-sm-4">
+                      <label class="secondcontentlbl">Dimension & Weight</label>
+                    </div>
+                    <div class="col-sm-8 secondcontenttxt">
+                      <p>6.0 height x 2.8 width x 0.36 depth (in)</p>
+                      <br />
+                      <p>152.2 height x 71.8 width x 8.9 depth(mm)</p>
+                      <br />
+                      <p>6.3 0z</p>
+                      <br />
+                      <p>178 g</p>
+                    </div>
+                  </div>
+                  <div class="row spacelbl">
+                    <div class="col-sm-4">
+                      <label class="secondcontentlbl">Battery & charging</label>
+                    </div>
+                    <div class="col-sm-8 secondcontenttxt">
+                      <p>Over 24-hour battery life3</p>
+                      <br />
+                      <p>
+                        Up to 72-hour battery life with Extreme Battery-saver
+                      </p>
+                      <br />
+                      <p>Typical 4410 mAh</p>
+                      <br />
+                      <p>Fast Charging</p>
+                    </div>
+                  </div>
+                  <div class="row spacelbl">
+                    <div class="col-sm-4 secondcontentlbl">
+                      <label class="secondcontentlbl">Memory</label>
+                    </div>
+
+                    <div class="col-sm-8 secondcontenttxt">
+                      <p>6GB LPDDRS RAM</p>
+                    </div>
+                  </div>
+                  <div class="row spacelbl">
+                    <div class="col-sm-4 secondcontentlbl">
+                      <label class="secondcontentlbl">Storage</label>
+                    </div>
+                    <div class="col-sm-8 secondcontenttxt">
+                      <p>128 GB strorage UFS 3.1 storage</p>
+                    </div>
+                  </div>
+                  <div class="row spacelbl">
+                    <div class="col-sm-4 secondcontentlbl">
+                      <label class="secondcontentlbl">Processer</label>
+                    </div>
+
+                    <div class="col-sm-8 secondcontenttxt">
+                      <p>Google Tensor Titan M2tm security coprocessor</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="popupheight"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#Avatar").hide();
+        $("#btntxt1").hide();
+        $("ul.navbar-nav > li > a").css("color", "#4E6E7E");
+        $("ul.navbar-nav > li > a").click(function (e) {
+          $("ul.navbar-nav > li").removeClass("active");
+          $("ul.navbar-nav > li > a").css("color", "#4E6E7E");
+          $("ul.navbar-nav > li > a").css({ "font-weight": "" });
+          $(this).addClass("active");
+          $(this).css("color", "#219EBC");
+          $(this).css({ "font-weight": "" });
+        });
+      });
+
+      $(function () {
+        $(document).scroll(function () {
+          $("#wrapper")
+            .stop()
+            .animate({
+              scrollTop: $(this).scrollTop(),
+            });
+        });
+      });
+
+      $(function () {
+        $(document).scroll(function () {
+          $("#wrapperone")
+            .stop()
+            .animate({
+              scrollTop: $(this).scrollTop(),
+            });
+        });
+      });
+
+      $("#Avatar").click(function (event) {
+        $("#Avatar").hide();
+        $("#btntxt1").hide();
+        $("#radiusbtn").animate(
+          {
+            width: "150px",
+            borderRadius: "7px",
+          },
+          190
+        );
+        $("#btntxt").show();
+        event.preventDefault();
+        event.stopPropagation();
+      });
+
+      $("#radiusbtn").click(function (event) {
+        debugger;
+        $("#radiusbtn").animate(
+          {
+            height: "40px",
+            width: "63px",
+            borderRadius: "50px",
+            padding: "2px",
+          },
+          190
+        );
+        $("#Avatar").css("border-radius", "20px");
+        $("#btntxt").hide();
+        $("#Avatar").show();
+        $("#btntxt1").show();
+        event.preventDefault();
+      });
+    </script>
+    <script>
+      function Lblclrchnge1() {
+        if (document.getElementById("defaultCheck1").checked == false) {
+          document.getElementById("Label1").style.color = "";
+          document.getElementById("Label1").style.fontWeight = "";
+        } else {
+          document.getElementById("Label1").style.color = "#219EBC";
+          document.getElementById("Label1").style.fontWeight = "800";
+        }
+      }
+
+      function Lblclrchnge2() {
+        if (document.getElementById("defaultCheck2").checked == false) {
+          document.getElementById("Label2").style.color = "";
+          document.getElementById("Label2").style.fontWeight = "";
+        } else {
+          document.getElementById("Label2").style.color = "#219EBC";
+          document.getElementById("Label2").style.fontWeight = "800";
+        }
+      }
+
+      function Lblclrchnge3() {
+        if (document.getElementById("defaultCheck3").checked == false) {
+          document.getElementById("Label3").style.color = "";
+          document.getElementById("Label3").style.fontWeight = "";
+        } else {
+          document.getElementById("Label3").style.color = "#219EBC";
+          document.getElementById("Label3").style.fontWeight = "800";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <form>      
+      <div class="row margin">
+        <div class="col-sm-12 col-lg-6">        
+          <img src="./Assets/Group 3833.svg"  />          
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="row formmargin">
+            <div class="col-sm-12">
+              <h3><b>Welcome to Google Store!</b></h3>
+              <h6>Register your account</h6>
+            </div>
+            <div class="col-sm-12">
+              <label class="form-label" for="Txtusername">Username</label>
+              <br>
+              <input type="text" id="Txtusername" class="txt" />
+            </div>
+            <div class="col-sm-12">
+              <label class="form-label" for="TxtEmailID">EmailID</label>
+              <br>
+              <input type="text" id="TxtEmailID" class="txt" />
+            </div>
+            <div class="col-sm-12">
+              <label class="form-label" for="create_password">Create Password</label>             
+              <div class="input-group" id="show_hide_password">
+                <input
+                  class="txt"
+                  type="password"
+                  autocomplete="current-password"
+                  required=""
+                  id="create_password"                       
+                />     
+                <i
+                class="far fa-eye"
+                id="togglePassword1"
+                style="margin-left: -30px;margin-top: 10px; cursor: pointer ;color: #98A0AC;"
+              ></i>
+                </div>
+            </div>
+
+            <div class="col-sm-12"> 
+              <div class="row justify-content-center">        
+                  <div class="form-group mb-3">
+                    <label class="form-label" for="retype_password">Retype Password</label>
+                    <div class="input-group" >
+                      <input
+                        class="txt"
+                        type="password"
+                        autocomplete="current-password"
+                        required=""
+                        id="retype_password"                       
+                      />     
+                      <i
+                      class="far fa-eye"
+                      id="togglePassword"
+                      style="margin-left: -30px;margin-top: 10px; cursor: pointer ;color: #98A0AC;"
+                    ></i>
+                      </div>
+                    </div>
+                  </div>             
+              </div>
+              <div class="col-md-12">
+                <button id="submitbtn" class="form-control btn" >Create Account</button>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>    
+    </form>   
+    <script>
+        const togglePassword = document.querySelector("#togglePassword");
+        const retypepassword = document.querySelector("#retype_password");
+        togglePassword.addEventListener("click", function (e) {        
+        const type =
+        retypepassword.getAttribute("type") === "password" ? "text" : "password";
+        retypepassword.setAttribute("type", type);       
+        this.classList.toggle("fa-eye-slash");
+      });    
+        const createtogglePassword = document.querySelector("#togglePassword1");
+        const createpassword = document.querySelector("#create_password");
+        createtogglePassword.addEventListener("click", function (e) {        
+        const type =
+        createpassword.getAttribute("type") === "password" ? "text" : "password";
+        createpassword.setAttribute("type", type);        
+        this.classList.toggle("fa-eye-slash");
+      });
+    </script>
+  </body>
+</html>
